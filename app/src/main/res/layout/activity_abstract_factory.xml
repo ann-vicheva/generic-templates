@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pp_lab1_tvirni.AbstractFactoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/first_obj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toyota"
+        android:checked="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/second_obj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Ford"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/first_obj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coupe"
+                android:checked="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/second_obj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Sedan"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:clickable="true"
+        android:onClick="create"
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Create"/>
+
+    <Button
+        android:clickable="false"
+        android:onClick="clear"
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Clear"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

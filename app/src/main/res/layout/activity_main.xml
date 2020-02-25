@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pp_lab1_tvirni.MainActivity">
+
+    <Button
+        android:onClick="prototype"
+        android:id="@+id/prototype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="PROTOTYPE"/>
+
+    <Button
+        android:onClick="singleton"
+        android:id="@+id/singleton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="SINGLETON"/>
+
+    <Button
+        android:onClick="factory_method"
+        android:id="@+id/factory_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="FACTORY METHOD"/>
+
+    <Button
+        android:onClick="builder"
+        android:id="@+id/builder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="BUILDER"/>
+
+    <Button
+        android:onClick="abstract_factory"
+        android:id="@+id/abstract_factory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="ABSTRACT FACTORY"/>
+
+</LinearLayout>
